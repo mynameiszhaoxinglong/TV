@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1120671D20B2A19B003CC4E3 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1120671C20B2A19B003CC4E3 /* TestViewController.m */; };
 		1149680320B292B100E059BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1149680220B292B100E059BD /* AppDelegate.m */; };
 		1149680620B292B100E059BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1149680520B292B100E059BD /* ViewController.m */; };
 		1149680920B292B100E059BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1149680720B292B100E059BD /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1120671B20B2A19B003CC4E3 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		1120671C20B2A19B003CC4E3 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		114967FE20B292B100E059BD /* zzTestGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zzTestGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1149680120B292B100E059BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1149680220B292B100E059BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				1149680220B292B100E059BD /* AppDelegate.m */,
 				1149680420B292B100E059BD /* ViewController.h */,
 				1149680520B292B100E059BD /* ViewController.m */,
+				1120671B20B2A19B003CC4E3 /* TestViewController.h */,
+				1120671C20B2A19B003CC4E3 /* TestViewController.m */,
 				1149680720B292B100E059BD /* Main.storyboard */,
 				1149680A20B292B300E059BD /* Assets.xcassets */,
 				1149680C20B292B300E059BD /* LaunchScreen.storyboard */,
@@ -264,6 +269,7 @@
 			files = (
 				1149680620B292B100E059BD /* ViewController.m in Sources */,
 				1149681120B292B300E059BD /* main.m in Sources */,
+				1120671D20B2A19B003CC4E3 /* TestViewController.m in Sources */,
 				1149680320B292B100E059BD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -453,6 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HXN7J2UK9S;
 				INFOPLIST_FILE = zzTestGit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
