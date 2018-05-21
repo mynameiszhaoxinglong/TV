@@ -19,7 +19,7 @@
     //引用
     [TestViewController add];
     
-    
+    NSLog(@"git的初次使用");
 }
 
 
