@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 #import "TestViewController.h"
+#import "TVViewController.h"
 @interface ViewController ()
+- (IBAction)playerToPlay:(id)sender;
 
 @end
 
@@ -29,4 +31,8 @@
 }
 
 
+- (IBAction)playerToPlay:(id)sender {
+    TVViewController *vc = [TVViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 @end
